@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left--side">
+        <img src="./images/odin-lined.png" alt="odin-logo">
+        <h1>Sign Up</h1>
+    </div>
+    
+    <div class="right--side">
+        <p class="right--side--header">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+
+        <form action="#" method="post" id="sign_up_form">
+            <h3 class="form--header">Let's do this!</h3>
+
+            <div class="input">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+
+            <div class="input">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input">
+                <label for="phone_number">Phone Number</label>
+                <input type="number" id="phone_number" name="phone_number" required>
+            </div>
+
+            <div class="input">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="input">
+                <label for="confirm_password">First Name</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+        </form>
+        <button type="submit" form="sign_up_form">Create Account</button>
+        <div class="login">Already have an account? <a href="#"><span class="login-button">Login</span></a></div>
+    </div>
+</body>
+</html>
