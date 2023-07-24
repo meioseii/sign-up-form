@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #14275c;
-    --secondary-color: #d5def6;
+    --secondary-color: rgb(233, 241, 247);
     --accent: #2e59d1;
 }
 * {
