@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #14275c;
-    --secondary-color: rgb(233, 241, 247);
+    --secondary-color: #d5def6;
     --accent: #2e59d1;
 }
 * {
@@ -48,3 +48,36 @@ body {
     font-weight: 700;
     font-size: 3rem;
 }
+
+.right--side {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+
+.right--side--header--main--text {
+    width: 60ch;
+    font-size: 1.5em;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    letter-spacing: .5px;
+
+}
+
+.right--side--header--added--text {
+    width: 60ch;
+    font-size: 1.5em;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    letter-spacing: .5px;
+}
+
+.right--side--header span {
+    display: block;
+}
+
+
+
