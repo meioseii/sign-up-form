@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Titillium+Web&display=swap');
 
 :root {
     --primary-color: #14275c;
@@ -6,7 +6,7 @@
     --accent: #2e59d1;
 }
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     margin: 0;
     padding: 0;
     border: px solid black;
@@ -15,7 +15,7 @@
 body {
     display: flex;
     height: 100vh;
-    background-color: ##fbfcfe;
+    background-color: #fbfcfe;
 }
 
 .left--side {
@@ -43,7 +43,8 @@ body {
 }
 
 .logo h1 {
-    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.5px;
     color: #ffffff;
     font-weight: 700;
     font-size: 3rem;
@@ -79,5 +80,34 @@ body {
     display: block;
 }
 
+.right--side form {
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #D4DAFF;
+    box-shadow: 0 5px 5px #A1A9D2;
+}
 
+.form--header {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.right--side button {
+    width: 10%;
+    margin: 2rem;
+}
+
+.login {
+    margin-left: 2rem;
+}
 
