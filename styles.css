@@ -30,15 +30,15 @@ body {
     position: relative;
     background-color: rgb(0.1, 0.1, 0.1, 0.3);
     height: auto;
-    top: 25vh;
+    top: 20vh;
     align-items: center;
     justify-content: center;
     gap: 1vw;
-    padding: 1vh 0vw;
+    padding: 15px;
 }
 
 .logo img {
-    height: 15vh;
+    height: 10vh;
     width: auto;
 }
 
@@ -47,7 +47,7 @@ body {
     letter-spacing: 0.5px;
     color: #ffffff;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .right--side {
@@ -64,8 +64,6 @@ body {
     font-size: 1.5em;
     margin-left: 2rem;
     margin-bottom: 2rem;
-    letter-spacing: .5px;
-
 }
 
 .right--side--header--added--text {
@@ -73,7 +71,6 @@ body {
     font-size: 1.5em;
     margin-left: 2rem;
     margin-bottom: 2rem;
-    letter-spacing: .5px;
 }
 
 .right--side--header span {
@@ -87,6 +84,7 @@ body {
     flex-wrap: wrap;
     background-color: #D4DAFF;
     box-shadow: 0 5px 5px #A1A9D2;
+    gap: 0.5vw;
 }
 
 .form--header {
