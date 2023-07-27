@@ -83,7 +83,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #fcfcfc;
-    box-shadow: 1px 8px 5px #c1c1c1;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
     gap: 0.5vw;
 }
 
