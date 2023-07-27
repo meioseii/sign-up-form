@@ -50,6 +50,19 @@ body {
     font-size: 2.5rem;
 }
 
+.credits {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 80%;
+    color: var(--secondary-color)
+}
+
+.credits a,
+.credits a:visited {
+    color: var(--secondary-color);
+}
+
 .right--side {
     width: 60vw;
     display: flex;
