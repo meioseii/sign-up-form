@@ -56,7 +56,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    background-color: var(--secondary-color);
+    background-color: #f1f1f1;
 }
 
 .right--side--header--main--text {
@@ -82,14 +82,14 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #D4DAFF;
-    box-shadow: 0 5px 5px #A1A9D2;
+    background-color: #fcfcfc;
+    box-shadow: 1px 8px 5px #c1c1c1;
     gap: 0.5vw;
 }
 
 .form--header {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     font-size: 1.5em;
 }
 
@@ -98,6 +98,28 @@ body {
     flex-direction: column;
     width: 40%;
     margin-right: 20px;
+}
+
+input {
+    border-radius: 4px;
+    border: 1px solid #c4c4c4;
+    padding: 5px 10px;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+input:focus:valid {
+    outline: none;
+    border: 1px solid var(--accent);
+}
+
+input:focus:invalid {
+    outline: none;
+    border: 1px solid red;
 }
 
 .right--side button {
