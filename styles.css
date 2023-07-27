@@ -60,20 +60,20 @@ body {
 }
 
 .right--side--header--main--text {
-    width: 60ch;
+    max-width: 60ch;
     font-size: 1.5em;
     margin-left: 2rem;
     margin-bottom: 2rem;
 }
 
 .right--side--header--added--text {
-    width: 60ch;
+    max-width: 60ch;
     font-size: 1.5em;
     margin-left: 2rem;
     margin-bottom: 2rem;
 }
 
-.right--side--header span {
+.right--side--header--main--text span {
     display: block;
 }
 
