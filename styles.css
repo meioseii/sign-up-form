@@ -149,3 +149,11 @@ input:focus:invalid {
     margin-left: 2rem;
 }
 
+.login a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.login a:visited {
+    color: var(--primary-color);
+}
