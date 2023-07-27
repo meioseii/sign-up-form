@@ -84,7 +84,7 @@ body {
     flex-wrap: wrap;
     background-color: #fcfcfc;
     box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
-    gap: 0.5vw;
+    gap: 0.8vw;
 }
 
 .form--header {
@@ -123,8 +123,26 @@ input:focus:invalid {
 }
 
 .right--side button {
-    width: 10%;
+    width: 15%;
     margin: 2rem;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.right--side button:hover {
+    background-color: var(--accent);
+}
+
+.right--side button:active {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .login {
