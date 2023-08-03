@@ -73,9 +73,15 @@
                         error.textContent = "*Passwords do NOT match"
                     });
                     submitButton.setAttribute("disabled", "true");
+                    passwordInput.forEach(passwordField => {
+                        passwordField.style.border = "1px solid red";
+                    });
                 } else {
                     passwordErrorMessage.forEach(error => {
                         error.textContent = "";
+                    });
+                    passwordInput.forEach(passwordField => {
+                        passwordField.style.border = "1px solid #c4c4c4";
                     });
                 }
             })
