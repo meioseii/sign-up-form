@@ -48,15 +48,38 @@
             <div class="input">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
+                <div class="error"></div>
             </div>
 
             <div class="input">
                 <label for="confirm_password">Confirm Password</label>
                 <input type="password" id="confirm_password" name="confirm_password" required>
+                <div class="error"></div>
             </div>
         </form>
         <button type="submit" form="sign_up_form">Create Account</button>
         <div class="login">Already have an account? <a href="#"><span class="login-button">Log in</span></a></div>
     </div>
+
+    <script>
+        const passwordInput = document.querySelectorAll("input[type='password']");
+        const passwordErrorMessage = document.querySelectorAll(".error");
+        const submitButton = document.querySelector("button[type='submit']");
+
+        passwordInput.forEach(password => {
+            password.addEventListener('change', () => {
+                if (passwordInput[0].value !== passwordInput[1].value) {
+                    passwordErrorMessage.forEach(error => {
+                        error.textContent = "*Passwords do NOT match"
+                    });
+                    submitButton.setAttribute("disabled", "true");
+                } else {
+                    passwordErrorMessage.forEach(error => {
+                        error.textContent = "";
+                    });
+                }
+            })
+        })
+    </script>
 </body>
 </html>

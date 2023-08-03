@@ -135,6 +135,11 @@ input:focus:invalid {
     border: 1px solid red;
 }
 
+.error {
+    font-size: .75em;
+    color: red;
+}
+
 .right--side button {
     width: 15%;
     margin: 2rem;
